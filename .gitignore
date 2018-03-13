@@ -1,3 +1,7 @@
+# Daghlny added
+*.txt
+bin/*
+
 # Prerequisites
 *.d
 
