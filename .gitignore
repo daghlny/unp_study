@@ -1,6 +1,7 @@
 # Daghlny added
 *.txt
 bin/*
+*.swp
 
 # Prerequisites
 *.d
