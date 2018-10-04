@@ -76,6 +76,15 @@ int getpeername(int sockfd, struct sockaddr* peeraddr, socklen_t* addrlen);
 int getsockopt(int sockfd, int level, int optname, void *optval, socklen_t *optlen);
 int setsockope(int sockfd, int level, int optname, const void* optval, socklen_t optlen);
 
+/////////////////////////////////////////////////
+//////// UDP ////////////////////////////////////
+/////////////////////////////////////////////////
+
+#include <sys/socket.h>
+
+ssize_t recvfrom(int sockfd, void *buff, size_t nbytes, int flags, struct sockaddr *from, socklen_t *addrlen);
+ssize_t sendto(int sockfd, const void* buff, size_t nbytes, int flags, const struct sockaddr *to, socklen_t addrlen);
+
 
 
 
